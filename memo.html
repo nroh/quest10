@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="memo.css">
+	<meta charset="utf-8">
+	<title>Memo</title>
+</head>
+
+<body id="myBody">
+	<header>
+		<h1>Memo</h1>
+	</header>
+
+	<section>
+		<nav>
+			<ul id="tabList">
+				<li class = "active">
+					<a href="#top" class="tabtab">
+						<span id="tab1">Tab1</span>
+					</a>
+						<span class="removeTab">x</span>
+
+				</li>
+				<li id="addTab"><span>+</span></li>
+			</ul>
+		</nav>
+		<article>
+			<div>Subject : <input type="text" name="subject" placeholder="subject" id="subject"></div>
+			<div>
+			<textarea name="contents" placeholder="contents" id="contents" rows=18 cols=65></textarea>
+			</div>
+			<div><input type="button" name="save" value="Save" id="save"></div>
+		</article>
+	</section>
+
+	<script type="text/javascript" src="memo.js"></script>
+
+</body>
+</html>
